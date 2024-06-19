@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="jorenz ruiz, portfolio, jorenz, full stack dev, personal portfolio, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Jorenz's Portfolio. 4th year BSIT student" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <!-- <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png"> -->
+    <title>Portfolio | Jorenz Ruiz</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+    <a href="#" class="logo"> iamjorenz</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-- navbar ends -->
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <h2>Hi There,<br/> I'm Jorenz <span>Ruiz</span></h2>
+        <p>i am into <span class="typing-text"></span></p>
+        
+        <a href="#about" class="btn"><span>About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
+        </a>
+
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jorenz-ruiz-b904472b3/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                <li><a class="github" aria-label="GitHub" href="https://github.com/jorenzruiz" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/jorenz.ruiz" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/_enzzow/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/hero2.png" alt="">
+    </div>
+
+</section>
+<!-- hero section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/meh.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>I'm Jorenz</h3>
+            <span class="tag">4th Year BSIT Student</span>
+            
+            <p>I'm a fourth-year BSIT student at Pamantasan ng Lungsod ng Pasig, 
+                deeply passionate about coding and web development. Specializing in crafting dynamic WebApps and websites, 
+                I'm dedicated to honing my skills and making a lasting impact in the digital landscape. 
+                Let's connect and create something extraordinary!</p>
+            
+            <div class="box-container">
+                <!-- <div class="box">
+                <p><span> age: </span> 20</p>
+                <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+                </div> -->
+                <div class="box">
+                    <p><span> email : </span> jorenzruiz111@gmail.com</p>
+                    <p><span> place : </span> Pasig, Philippines</p>
+                </div>
+                <div class="box">
+                    <p><span> contact : </span> 0915-438-0515</p>
+                    <p><span> age : </span> 22 years old</p>
+                </div>
+            </div>
+            
+            <div class="resumebtn">
+                <a href="https://drive.google.com/file/d/1Oy7GcghzuHI5FjCtNQT2cPcCoEv7lixC/view?usp=sharing" target="_blank" class="btn"><span>Download CV</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills</h2>
+
+    <div class="container">
+        <div class="row" id="skillsContainer">
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/offices/48/000000/php-logo.png"/>
+                    <span>PHP</span>
+                </div>
+            </div> 
+
+            <div class="bar">
+                <div class="info">
+                    <img width="48" src="assets/images/skills/laravel.png"/>
+                    <span>Laravel</span>
+                </div>
+            </div> 
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>
+                    <span>Java</span>
+                </div>
+            </div> 
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/mysql-logo.png"/>
+                    <span>MySql</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+                    <span>Javascript</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+                    <span>HTML</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                    <span>CSS</span>
+                </div>
+            </div> 
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/sass.png"/>
+                    <span>Sass</span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/ios-filled/48/1169ae/jquery.png"/>
+                    <span>JQuery</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+                    <span>Bootstrap</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/fluency/48/000000/android-os.png"/>
+                    <span>Android</span>
+                </div>
+            </div>  
+
+            <div class="bar">
+                <div class="info">
+                    <img src="assets/images/skills/r.png" width="48" alt="" srcset="">
+                    <span>R Studio</span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+                    <span>C++</span>
+                </div>
+            </div> 
+
+            <div class="bar">
+                <div class="info">
+                    <img src="assets/images/skills/vb.png" width="48" alt="" srcset="">
+                    <span>Visual Basic</span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <img src="assets/images/skills/swing.png" width="48" alt="" srcset="" style="border-radius: 5px;">
+                    <span style="font-size: 15px;">Java Swing</span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <img src="assets/images/skills/packet.png" width="48" alt="" srcset="">
+                    <span style="font-size: 15px;">Packet Tracer</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                        <path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path><path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path><path fill="#020F16" d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"></path>
+                    </svg>
+                    <span>Photoshop</span>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div class="info">
+                    <img src="assets/images/skills/filmora.png" width="48" alt="" srcset="">
+                    <span>Filmora</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+    <!-- <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1> -->
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> Education</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="./assets/images/educat/plp.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pamantasan ng Lungsod ng Pasig</h3>
+                <p>Bachelor of Science in Information Technology</p>
+                <h4>2020-2024 | Present</h4>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image" style="height: 160px;">
+                <img draggable="false" src="./assets/images/educat/rhs.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rizal High School</h3>
+                <p>Senior High (Information Communication Technology Strand)</p>
+                <h4>2014-2020 | Graduated</h4>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/pru-website.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3 style="font-size:15px;">Golden Empire Summit - Pru Life UK</h3>
+                </div>
+                <div class="desc">
+                    <p style="font-size:13px;">
+                        A website developed for the unit team at GESLIA Pru Life UK, dedicated to highlighting products, activities, and additional content.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="x-gallery"><i class="fas fa-eye"></i> View</a>
+                        <a href="http://pluk1.rf.gd/public/" class="btn" target="_blank">Website <i class="fas fa-link"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/bbb-website.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Blanco Brothers Barbershop</h3>
+                </div>
+                <div class="desc">
+                    <p style="font-size:13px;">
+                        An online platform developed for Blanco Brothers Barbershop, enhancing operations through appointment scheduling and service customization.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="z-gallery"><i class="fas fa-eye"></i> View</a>
+                        <a href="http://bbb.42web.io/public/" class="btn" target="_blank">Website <i class="fas fa-link"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/krbs_home.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Ka Ruben's Barbershop</h3>
+                </div>
+                <div class="desc">
+                    <p style="font-size:13px;">
+                        A web-based system designed exclusively for Ka Ruben's Barbershop, optimizing operations with online scheduling and inventory management.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="a-gallery"><i class="fas fa-eye"></i> View</a>
+                        <a href="http://karubensbarbershop.rf.gd/public/" class="btn" target="_blank">Website <i class="fas fa-link"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/pharmasea.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Pharmasea</h3>
+                </div>
+                <div class="desc">
+                    <p>Pharmasea: A web-based drugstore management system with POS (Point of Sale) capabilities.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="b-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/happytummy4-website.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Happy Tummy Website</h3>
+                </div>
+                <div class="desc">
+                    <p>Happy Tummy: A user-friendly web-based food ordering system designed to satisfy cravings with ease.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="c-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/happytummy1-system.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Happy Tummy Desktop App</h3>
+                </div>
+                <div class="desc">
+                    <p>Happy Tummy Desktop App: A food ordering system for desktop, with versions available in VB.NET and Java Swing.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="d-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/touchdown-system.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Touchdown Desktop App</h3>
+                </div>
+                <div class="desc">
+                    <p>Touchdown Desktop App: A Java Swing GUI-based note-taking desktop application.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="e-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/touchdown-app.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Touchdown Mobile App</h3>
+                </div>
+                <div class="desc">
+                    <p>Touchdown Mobile App: An Android note-taking application developed using Java.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="f-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/minimessenger-system.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Mini Networking Messenger</h3>
+                </div>
+                <div class="desc">
+                    <p>                  
+                        "Mini Networking Messenger": Connects desktops for easy messaging and file sharing on the same network.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="g-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/programming_self-app.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Programming.self App</h3>
+                </div>
+                <div class="desc">
+                    <p>
+                        Programming.self App: Enhance your programming skills with this mobile app designed for self-learning, developed in Java.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="h-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/grocerylist-app.jpg" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Grocery List App</h3>
+                </div>
+                <div class="desc">
+                    <p>Grocery List App: Simplify your shopping with this easy-to-use mobile application for managing your grocery list.</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="i-gallery"><i class="fas fa-eye"></i> View</a>
+                        <!-- <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/tictactoe-system.png" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>TicTacToe Desktop App</h3>
+                </div>
+                <div class="desc">
+                    <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="j-gallery"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Portfolio Website</h3>
+                </div>
+                <div class="desc">
+                    <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                    <div class="btns">
+                        <a class="btn view-image" data-gallery="k-gallery"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://github.com/jorenzruiz/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <!-- <div class="viewall">
+        <a href="/projects" class="btn"><span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+    </a> -->
+
+</section>
+<!-- work project section ends -->
+
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experiences / Achievements </h2>
+
+    <div class="timeline">
+
+        <div class="container left">
+            <div class="content">
+                <div class="tag">
+                <h2>UMak I.T. Skills Olympics 2023</h2>
+                </div>
+                <div class="desc">
+                    <h3>Java Programming Representative</h3>
+                    <p>Nov 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                <h2>PLP Acedemic Competition (Java Programming)</h2>
+                </div>
+                <div class="desc">
+                    <h3>Champion</h3>
+                    <p>February 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <div class="tag">
+                <h2>RHS Java Debugging Contest</h2>
+                </div>
+                <div class="desc">
+                    <h3>Champion</h3>
+                    <p>March 2020</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                <h2>Senior Highschool Graduate</h2>
+                </div>
+                <div class="desc">
+                    <h3>With High Honors</h3>
+                    <p>August 2020</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="container left">
+            <div class="content">
+                <div class="tag">
+                <h3>JDVP Training on Computer System Servicing NC II</h3>
+                </div>
+                <div class="desc">
+                    <h3>Passed</h3>
+                    <p>Nov 2020 - Jan 2020</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                <h2>TIP IT Olympics (IT Quiz Bee)</h2>
+                </div>
+                <div class="desc">
+                    <h3>2nd Runner Up</h3>
+                    <p>September 2019</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container left">
+            <div class="content">
+                <div class="tag">
+                <h2>Work Immersion (Immersion Office)</h2>
+                </div>
+                <div class="desc">
+                    <h3>Administrative Assistant / Multimedia Editor</h3>
+                    <p>August 2019 - September 2019</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- <div class="morebtn">
+        <a href="/experience" class="btn"><span>View All</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div> -->
+
+</section>
+<!-- experience section ends -->
+
+
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+                <img draggable="false" src="./assets/images/contact1.png" alt="">
+            </div>
+            <form id="contact-form">
+            
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Phone">
+                        <i class='fas fa-phone-alt'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit">
+                    Submit <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>iamjorenz</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> 
+                "Keep Rising 🚀. Let's stay connected!"</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+            <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+            <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+            <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+            <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+            <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i>0915-438-0151</p>
+            <p> <i class="fas fa-envelope"></i>jorenzruiz111@gmail.com</p>
+            <p> <i class="fas fa-map-marked-alt"></i>Pasig, Philippines</p>
+            <div class="share">
+
+                <a href="https://github.com/jorenzruiz" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                <a href="mailto:jorenzruiz111@gmail.com" class="fas fa-envelope" aria-label="Email" target="_blank"></a>
+                <a href="https://www.facebook.com/jorenz.ruiz" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/_enzzow/" class="fab fa-instagram" aria-label="Instagram" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by Jorenz Ruiz</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- Gallery Images -->
+<div style="display: none;">
+    <a href="./assets/images/projects/a-gallery/image-1.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-2.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-2.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-3.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-3.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-4.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-4.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-5.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-5.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-6.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-6.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-7.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-7.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-8.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-8.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-9.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-9.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-10.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-10.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-11.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-11.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-12.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-12.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-13.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-13.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-14.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-14.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-15.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-15.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-16.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-16.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/a-gallery/image-17.png" data-fancybox="a-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/a-gallery/image-17.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- b-gallery  -->
+    <a href="./assets/images/projects/b-gallery/image-1.png" data-fancybox="b-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/b-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/b-gallery/image-2.png" data-fancybox="b-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/b-gallery/image-2.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/b-gallery/image-3.png" data-fancybox="b-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/b-gallery/image-3.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/b-gallery/image-4.png" data-fancybox="b-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/b-gallery/image-4.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/b-gallery/image-5.png" data-fancybox="b-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/b-gallery/image-5.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+
+    <!-- c-gallery  -->
+    <a href="./assets/images/projects/c-gallery/image-1.png" data-fancybox="c-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/c-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/c-gallery/image-2.png" data-fancybox="c-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/c-gallery/image-2.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/c-gallery/image-3.png" data-fancybox="c-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/c-gallery/image-3.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+
+    <!-- d-gallery  -->
+    <a href="./assets/images/projects/d-gallery/image-1.png" data-fancybox="d-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/d-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- e-gallery  -->
+    <a href="./assets/images/projects/e-gallery/image-1.png" data-fancybox="e-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/e-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- f-gallery  -->
+    <a href="./assets/images/projects/f-gallery/image-1.jpg" data-fancybox="f-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/f-gallery/image-1.jpg" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- g-gallery  -->
+    <a href="./assets/images/projects/g-gallery/image-1.png" data-fancybox="g-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/g-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- h-gallery  -->
+    <a href="./assets/images/projects/h-gallery/image-1.jpg" data-fancybox="h-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/h-gallery/image-1.jpg" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- i-gallery  -->
+    <a href="./assets/images/projects/i-gallery/image-1.jpg" data-fancybox="i-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/i-gallery/image-1.jpg" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- j-gallery  -->
+    <a href="./assets/images/projects/j-gallery/image-1.png" data-fancybox="j-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/j-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- z-gallery  -->
+    <a href="./assets/images/projects/z-gallery/image-1.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-2.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-2.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-3.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-3.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-4.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-4.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-5.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-5.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-6.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-6.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/z-gallery/image-7.png" data-fancybox="z-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/z-gallery/image-7.png" alt="Ka Ruben's Barbershop">
+    </a>
+
+    <!-- x-gallery  -->
+    <a href="./assets/images/projects/z-gallery/image-1.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-1.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-2.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-2.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-3.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-3.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-4.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-4.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-5.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-5.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-6.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-6.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-7.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-7.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-8.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-8.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-9.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-9.png" alt="Ka Ruben's Barbershop">
+    </a>
+    <a href="./assets/images/projects/x-gallery/image-10.png" data-fancybox="x-gallery" data-caption="Ka Ruben's Barbershop">
+        <img src="./assets/images/projects/x-gallery/image-10.png" alt="Ka Ruben's Barbershop">
+    </a>
+</div>
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+<!-- jQuery (necessary for Fancybox) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Fancybox JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.view-image').click(function(e) {
+            e.preventDefault();
+            var galleryName = $(this).data('gallery');
+            $('a[data-fancybox="' + galleryName + '"]').fancybox({
+                // Add any options you need here
+                loop: true // Enables looping through images
+            }).click();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
